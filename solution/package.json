@@ -10,7 +10,8 @@
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.18.1",
     "method-override": "^3.0.0",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "restful-express-server": "file:"
   },
   "scripts": {
     "go": "node app.js",
