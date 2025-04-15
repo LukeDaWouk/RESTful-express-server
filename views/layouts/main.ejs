@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information and page title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management System</title>
+
+    <!-- Link to global CSS file for styling -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- Site header with navigation bar -->
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Product Management System</h1>
+                <ul>
+                    <!-- Navigation links to key routes -->
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/products/new">Add Product</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content area - dynamic content from views inserted here -->
+    <main class="container">
+        <%- body %> <!-- This is where individual views get injected -->
+    </main>
+
+    <!-- Footer section (currently empty) -->
+    <footer>
+        <div class="footer">
+            <!-- Optional footer content -->
+        </div>
+    </footer>
+
+    <!-- Global JavaScript file for interactivity -->
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
